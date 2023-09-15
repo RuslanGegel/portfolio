@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+    <form>
+        <div>
+            <label for="text">Текст</label>
+            <input type="text" id="text">
+        </div>
+        <div>
+            <label for="email1">Email</label>
+            <input type="email" id="email1">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="number">Number</label>
+            <input type="Number" id="number" min="0" max="10">
+        </div>
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+        <div>
+            <label for="date">Data</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="message">Сообщение</label>
+            <br>
+            <textarea id="message" cols="25" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">Пол</label>
+            <select id="sex">
+                <option value="">Мужчина</option>
+                <option value="">Женщина</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file">
+        </div>
+        <div>
+            <label for="image">Image</label>
+            <input type="image" id="image">
+        </div>
+        <div>
+            <label>Любимая еда</label>
+            <input type="radio" name="food">Картошка
+            <input type="radio" name="food">Курица
+            <input type="radio" name="food">Макароны
+            <input type="radio" name="food">Шаурма
+        </div>
+        <div>
+            <label>Число</label>
+            <input type="checkbox" name="work">0
+            <input type="checkbox" name="work">1
+            <input type="checkbox" name="work">2
+            <input type="checkbox" name="work">1488+
+        </div>
+        <input type="submit" value="Отправить форму">
+    </form>
+</body>
+</html>

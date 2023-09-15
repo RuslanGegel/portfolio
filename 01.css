@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    background-color: #141414;
+    color: #fff;
+}
+
+.aye {
+    display: flex;
+    gap: 10px;
+}
+.aye a {
+    text-decoration: none;
+    color: orange;
+}
