@@ -5,61 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="01.css">
+    <link rel="stylesheet" href="stil.css">
 </head>
 <body>
-    <img src="Аватарка.webp" width="150">
-    <h1><strong>Руслан Тимонькин</strong></h1>
-    <h3>Дико трахаю в дота 2.На фото мой дедушка.</h3>
-    <h2><strong>Мои хобби</strong></h2>
-    <ol>
-        <li>Чтение Гегеля</li>
-        <li>Программирование</li>
-        <li>Математика</li>
-        <li>Компьютерные игры</li>
-    </ol>
-    <h2><strong>Опыт работы</strong></h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-            <tr>
-                <td>Пятерочка</td>
-                <td>Охраник</td>
-                <td>2 недели</td> 
-            </tr>
-            <tr>
-                <td>Сизо 2</td>
-                <td>Баландер</td>
-                <td>2017-2020</td> 
-            </tr>
-            <tr>
-                <td>Tesla</td>
-                <td>Заместитель Илона</td>
-                <td>2020-н.в.</td> 
-            </tr>
-    </table>
-    <h2><strong></strong>Связаться со мной</strong></h2>
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
-    </div>
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-    <div>
-        <label for="message">Сообщение</label>
-        <br>
-        <textarea id="message" cols="25" rows="10"></textarea>
-    </div>
-    <input type="submit" value="Отправить" placeholder="Введите сообщение">
-    <h2><strong>Список социальных сетей:</strong></h2>
-    <div class="aye">
-        <a href="https://vk.com/ruzland21" target="_blank">Вконтакте</a><a href="https://t.me/.ruzlik1917">Telegram</a>
+    <div class="container">
+        <div class="info">
+            <img src="Аватарка.webp" alt="Руслан Гегель" class="avatar">
+            <div class="info-text"></div>
+                <h1><strong>Руслан Тимонькин</strong></h1>
+                <h3>Дико трахаю в дота 2. На фото мой дедушка.</h3>
+                <h2><strong>Список социальных сетей:</strong></h2>
+                <div class="aye">
+                    <a href="https://vk.com/ruzland21" target="_blank">Вконтакте</a> | <a href="https://t.me/.ruzlik1917">Telegram</a>
+                </div>
+                <br>
+                <div class="card bg-green">
+                    <h2><strong>Мои хобби</strong></h2>
+                    <ol class="list">
+                        <li>Чтение Гегеля</li>
+                        <li>Программирование</li>
+                        <li>Математика</li>
+                        <li>Компьютерные игры</li>
+                    </ol>
+                </div>
+            </div>
+        </div>    
+        <div class="card bg-red">
+            <h2><strong>Опыт работы</strong></h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                    <tr>
+                        <td>Пятерочка</td>
+                        <td>Охраник</td>
+                        <td>2 недели</td> 
+                    </tr>
+                    <tr>
+                        <td>Сизо 2</td>
+                        <td>Баландер</td>
+                        <td>2017-2020</td> 
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>Заместитель Илона</td>
+                        <td>2020-н.в.</td> 
+                    </tr>
+            </table>
+        </div>
+        <div class="card1">
+            <form action="/" class="form">
+                <h2><strong>Связаться со мной</strong></h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea cols="15" rows="7" placeholder="Напишите сообщение..."></textarea>  
+                </div>
+                <input class="btn" type="submit" value="Отправить!">
+            </form>
+        </div>
     </div>
 </body>
 </html>

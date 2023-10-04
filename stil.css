@@ -1,0 +1,14 @@
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: rgb(82, 78, 78);
+    margin-bottom: 8px;
+}
+.table {
+    width: 100%;
+
+}
+.table td {
+    padding-bottom: 8px;
+}
